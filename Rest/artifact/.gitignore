@@ -10,8 +10,3 @@ application.properties
 
 .vscode/
 .DS_Store
-
-# Exception pour le dossier src
-!src/**/build/
-!src/**/bin/
-!src/**/out/
