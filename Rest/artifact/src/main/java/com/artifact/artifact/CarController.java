@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class CarController {
     private static List<Car> cars = new ArrayList<>(Arrays.asList(
         new Car("11AA22", "Ferrari", 100, false),
-        new Car("33BB44", "Porsche", 120, false)
+        new Car("33BB44", "Porsche", 120, false),
+        new Car("31AB46", "VW", 160, false)
+
     ));
 
     @GetMapping("/cars")
