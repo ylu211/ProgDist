@@ -50,6 +50,16 @@ public class CarController {
                       .orElseThrow(() -> new Exception("Car not found"));
         
         car.setRented(isRented);
+        if (isRented) {
+            if(begin==null||end==null) {
+                throw new Exception("Need dates");
+            }
+            Dates rentalDates = new Dates();
+            rentalDates.setBegin(begin);
+            rentalDates.setEnd(end);
+            car.setRentalDates(rentalDates);
+            return "Car rented from " + begin + " to " + end;
+        }
 
         String message = isRented ? "Car rented from " + begin + " to " + end : "Car returned successfully";
              
