@@ -16,6 +16,5 @@ jobs:
         run: |
           export SHELL=/bin/bash
           ./gradlew build
-      - name: Build Docker image
-        run: |
           docker build -t yvonnelu/javaimage:latest .
+          docker run -p 8080:8080 yvonnelu/javaimage:latest
