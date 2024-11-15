@@ -12,6 +12,8 @@ jobs:
         with:
           java-version: '21'
           distribution: 'adopt'
+      - name: Navigate
+        run: cd ../../Rest/
       - name: Build and test
         run: |
           export SHELL=/bin/bash
