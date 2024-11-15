@@ -15,6 +15,7 @@ jobs:
       - name: Build and test
         run: |
           export SHELL=/bin/bash
+          cd Rest/
           ./gradlew build
           docker build -t yvonnelu/javaimage:latest .
           docker run -p 8080:8080 yvonnelu/javaimage:latest

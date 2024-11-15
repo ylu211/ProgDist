@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.artifact.artifact.ArtifactApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-08T10:19:26" hostname="MacBook-Pro-de-Yvonne.local" time="0.901">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.artifact.artifact.ArtifactApplicationTests" time="0.901"/>
+  <system-out><![CDATA[11:19:24.805 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.artifact.artifact.ArtifactApplicationTests]: ArtifactApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:19:24.997 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.artifact.artifact.ArtifactApplication for test class com.artifact.artifact.ArtifactApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-08T11:19:25.325+01:00  INFO 22759 --- [artifact] [    Test worker] c.a.artifact.ArtifactApplicationTests    : Starting ArtifactApplicationTests using Java 21.0.5 with PID 22759 (started by yvonne in /Users/yvonne/Desktop/M2/Programmation distribuee/ProgDist/Rest)
+2024-11-08T11:19:25.327+01:00  INFO 22759 --- [artifact] [    Test worker] c.a.artifact.ArtifactApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-11-08T11:19:26.343+01:00  INFO 22759 --- [artifact] [    Test worker] c.a.artifact.ArtifactApplicationTests    : Started ArtifactApplicationTests in 1.225 seconds (process running for 2.438)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/yvonne/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
